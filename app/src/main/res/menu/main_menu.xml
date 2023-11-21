@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/noname_settings"
+        android:icon="@drawable/noname"
+        android:title=""
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/call_settings"
+        android:icon="@drawable/call"
+        android:title="Call"
+        app:showAsAction="never"/>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/camera_settings"
+            android:icon="@drawable/camera"
+            android:title="Camera"/>
+        <item android:id="@+id/video_settings"
+            android:icon="@drawable/video"
+            android:title="Video"/>
+    </group>
+    <item
+        android:id="@+id/email_settings"
+        android:icon="@drawable/email"
+        android:title="Email"/>
+    <item
+        android:id="@+id/add_settings"
+        android:icon="@drawable/add"
+        android:title="Add"/>
+    <item
+        android:id="@+id/copy_settings"
+        android:icon="@drawable/copy"
+        android:title="Copy"/>
+    <item
+        android:id="@+id/paste_settings"
+        android:icon="@drawable/paste"
+        android:title="Paste"/>
+    <item
+        android:id="@+id/help_settings"
+        android:icon="@drawable/help"
+        android:title="Help"/>
+</menu>
